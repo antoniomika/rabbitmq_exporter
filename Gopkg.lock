@@ -57,6 +57,12 @@
   revision = "77f4c9cb2e7ea5a63fc87ec88c9d25e939791241"
 
 [[projects]]
+  name = "github.com/kbudde/rabbitmq_exporter"
+  packages = ["testenv"]
+  revision = "8cdbef10fc4c30ab1d127e85b663fa339e322071"
+  version = "v0.28.0"
+
+[[projects]]
   branch = "master"
   name = "github.com/kylelemons/godebug"
   packages = [
@@ -125,10 +131,7 @@
 [[projects]]
   branch = "master"
   name = "golang.org/x/net"
-  packages = [
-    "context",
-    "context/ctxhttp"
-  ]
+  packages = ["context"]
   revision = "61147c48b25b599e5b561d2e9c4f3e1ef489ca41"
 
 [[projects]]
@@ -149,6 +152,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "b3840dc13c5145ac5abf643a89b72043b49a999a8a1e9c8cd43bd8933a8412ca"
+  inputs-digest = "dcec97cab84aa1f6f70ec7425d766d19c5d791170699a215750a8373ff375941"
   solver-name = "gps-cdcl"
   solver-version = 1
